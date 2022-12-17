@@ -31,13 +31,11 @@ function one(){
    if (confirm("Press to submit!")) {
        alert(" successful signup!");
     }else{
-     reload();
+     location.reload();
   }
   
   }
   
 
   //// body reload
-  function reload() {
-    alert("Page is loaded");
-  }
+  
